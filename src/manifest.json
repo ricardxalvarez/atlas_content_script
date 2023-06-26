@@ -16,9 +16,8 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
-      "js": ["contentScript.bundle.js"],
-      "css": ["content.styles.css"]
+      "matches": ["https://atlas.immobilienscout24.de/orte/deutschland/th%C3%BCringen?marketingFocus=HOUSE_BUY&userIntent=SELL"],
+      "js": ["myContentScript.bundle.js"]
     }
   ],
   "devtools_page": "devtools.html",
